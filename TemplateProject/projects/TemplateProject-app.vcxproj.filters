@@ -258,6 +258,75 @@
     <ClInclude Include="..\..\iPlug2\IGraphics\ISender.h">
       <Filter>IGraphics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\clip\aw_cliponly2.h">
+      <Filter>trnr-lib\clip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\clip\aw_clipsoftly.h">
+      <Filter>trnr-lib\clip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\clip\aw_tube2.h">
+      <Filter>trnr-lib\clip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\companding\mulaw.h">
+      <Filter>trnr-lib\companding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\companding\ulaw.h">
+      <Filter>trnr-lib\companding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\dynamics\aw_pop2.h">
+      <Filter>trnr-lib\dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\aw_eq.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\chebyshev.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\ybandpass.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\yhighpass.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\ylowpass.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\ynotch.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\ysvf.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\ivoice.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\midi_event.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\midi_synth.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\tx_envelope.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\tx_operator.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\tx_sineosc.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\tx_voice.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\voice_allocator.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\util\audio_math.h">
+      <Filter>trnr-lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\util\demo_noise.h">
+      <Filter>trnr-lib\util</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="resources">
@@ -289,6 +358,27 @@
     </Filter>
     <Filter Include="IPlug\APP\RTAudioMidi\include">
       <UniqueIdentifier>{649c5de3-b4c2-4de9-8d57-3b1762646259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib">
+      <UniqueIdentifier>{7fc46346-f7ab-4188-88dd-2eebff673dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\clip">
+      <UniqueIdentifier>{834aff25-199b-4688-9ace-7451cf1dd997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\util">
+      <UniqueIdentifier>{5d454f2d-aff5-4f50-9674-994ed6cc695b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\synth">
+      <UniqueIdentifier>{4e6b8023-db85-4a8f-98b0-a0328cd58523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\dynamics">
+      <UniqueIdentifier>{0bf435fb-982e-4338-8ba7-16b3e2b53547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\filter">
+      <UniqueIdentifier>{c21305dc-b2bb-4d7f-aac0-d74f6563cb1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\companding">
+      <UniqueIdentifier>{ea21fe83-29c8-4d92-90e4-6a2f227a2e3c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

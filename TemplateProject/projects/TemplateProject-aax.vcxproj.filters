@@ -210,6 +210,75 @@
     <ClInclude Include="..\..\iPlug2\IGraphics\Drawing\IGraphicsSkia.h">
       <Filter>IGraphics\Drawing</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\clip\aw_cliponly2.h">
+      <Filter>trnr-lib\clip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\clip\aw_clipsoftly.h">
+      <Filter>trnr-lib\clip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\clip\aw_tube2.h">
+      <Filter>trnr-lib\clip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\util\audio_math.h">
+      <Filter>trnr-lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\util\demo_noise.h">
+      <Filter>trnr-lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\ivoice.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\midi_event.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\midi_synth.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\tx_envelope.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\tx_operator.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\tx_sineosc.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\tx_voice.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\voice_allocator.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\dynamics\aw_pop2.h">
+      <Filter>trnr-lib\dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\aw_eq.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\chebyshev.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\ybandpass.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\yhighpass.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\ylowpass.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\ynotch.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\ysvf.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\companding\mulaw.h">
+      <Filter>trnr-lib\companding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\companding\ulaw.h">
+      <Filter>trnr-lib\companding</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="resources">
@@ -235,6 +304,27 @@
     </Filter>
     <Filter Include="IGraphics\Controls">
       <UniqueIdentifier>{3c740de7-2371-4065-bf3d-5af9193c7b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib">
+      <UniqueIdentifier>{3b7ef843-d3b7-4c10-b15a-1b149c9b2291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\clip">
+      <UniqueIdentifier>{4614ea63-6980-4fe7-96ab-ebc57fe052da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\util">
+      <UniqueIdentifier>{c820c2bd-ce22-4384-a649-90aa616d8a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\synth">
+      <UniqueIdentifier>{44f62f67-8041-4b5c-bf8b-c25017d85113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\dynamics">
+      <UniqueIdentifier>{6d7f15f6-e99f-430f-b991-025789226c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\filter">
+      <UniqueIdentifier>{1b7321b1-3f1b-48af-8a5c-7d7de695f11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\companding">
+      <UniqueIdentifier>{6a093427-9507-4f09-abd4-8661b8c54fc6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

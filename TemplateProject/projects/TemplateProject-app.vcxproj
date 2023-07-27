@@ -38,41 +38,41 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Tracer|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Tracer|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -317,6 +317,29 @@
     <ClInclude Include="..\..\iPlug2\IPlug\IPlugUtilities.h" />
     <ClInclude Include="..\..\iPlug2\IPlug\IPlug_include_in_plug_hdr.h" />
     <ClInclude Include="..\..\iPlug2\IPlug\IPlug_include_in_plug_src.h" />
+    <ClInclude Include="..\..\trnr-lib\clip\aw_cliponly2.h" />
+    <ClInclude Include="..\..\trnr-lib\clip\aw_clipsoftly.h" />
+    <ClInclude Include="..\..\trnr-lib\clip\aw_tube2.h" />
+    <ClInclude Include="..\..\trnr-lib\companding\mulaw.h" />
+    <ClInclude Include="..\..\trnr-lib\companding\ulaw.h" />
+    <ClInclude Include="..\..\trnr-lib\dynamics\aw_pop2.h" />
+    <ClInclude Include="..\..\trnr-lib\filter\aw_eq.h" />
+    <ClInclude Include="..\..\trnr-lib\filter\chebyshev.h" />
+    <ClInclude Include="..\..\trnr-lib\filter\ybandpass.h" />
+    <ClInclude Include="..\..\trnr-lib\filter\yhighpass.h" />
+    <ClInclude Include="..\..\trnr-lib\filter\ylowpass.h" />
+    <ClInclude Include="..\..\trnr-lib\filter\ynotch.h" />
+    <ClInclude Include="..\..\trnr-lib\filter\ysvf.h" />
+    <ClInclude Include="..\..\trnr-lib\synth\ivoice.h" />
+    <ClInclude Include="..\..\trnr-lib\synth\midi_event.h" />
+    <ClInclude Include="..\..\trnr-lib\synth\midi_synth.h" />
+    <ClInclude Include="..\..\trnr-lib\synth\tx_envelope.h" />
+    <ClInclude Include="..\..\trnr-lib\synth\tx_operator.h" />
+    <ClInclude Include="..\..\trnr-lib\synth\tx_sineosc.h" />
+    <ClInclude Include="..\..\trnr-lib\synth\tx_voice.h" />
+    <ClInclude Include="..\..\trnr-lib\synth\voice_allocator.h" />
+    <ClInclude Include="..\..\trnr-lib\util\audio_math.h" />
+    <ClInclude Include="..\..\trnr-lib\util\demo_noise.h" />
     <ClInclude Include="..\TemplateProject.h" />
     <ClInclude Include="..\resources\resource.h" />
   </ItemGroup>

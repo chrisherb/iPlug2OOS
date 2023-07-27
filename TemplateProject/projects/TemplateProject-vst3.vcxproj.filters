@@ -357,6 +357,75 @@
     <ClInclude Include="..\..\iPlug2\IGraphics\ISender.h">
       <Filter>IGraphics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\clip\aw_cliponly2.h">
+      <Filter>trnr-lib\clip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\clip\aw_clipsoftly.h">
+      <Filter>trnr-lib\clip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\clip\aw_tube2.h">
+      <Filter>trnr-lib\clip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\util\audio_math.h">
+      <Filter>trnr-lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\util\demo_noise.h">
+      <Filter>trnr-lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\ivoice.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\midi_event.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\midi_synth.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\tx_envelope.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\tx_operator.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\tx_sineosc.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\tx_voice.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\synth\voice_allocator.h">
+      <Filter>trnr-lib\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\dynamics\aw_pop2.h">
+      <Filter>trnr-lib\dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\aw_eq.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\chebyshev.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\ybandpass.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\yhighpass.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\ylowpass.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\ynotch.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\filter\ysvf.h">
+      <Filter>trnr-lib\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\companding\mulaw.h">
+      <Filter>trnr-lib\companding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\trnr-lib\companding\ulaw.h">
+      <Filter>trnr-lib\companding</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="resources">
@@ -415,6 +484,27 @@
     </Filter>
     <Filter Include="IPlug\VST3\VST3_SDK\plugininterfaces\base">
       <UniqueIdentifier>{5f06b03e-5093-46c0-9513-efb4e494c857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib">
+      <UniqueIdentifier>{e10037c3-0079-419a-8f23-716eb1a2f439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\clip">
+      <UniqueIdentifier>{056e0577-acd3-4873-b33a-a156cd4b4e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\util">
+      <UniqueIdentifier>{ddd84f66-12f9-4dad-b60c-565dbbf31dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\synth">
+      <UniqueIdentifier>{e1635120-a90b-4960-89a0-3ca2cad82d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\dynamics">
+      <UniqueIdentifier>{126f1fb8-a4d4-4c9d-9f61-6e48c1e1693f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\filter">
+      <UniqueIdentifier>{34a39518-1da3-49c9-baa0-046a948bb683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trnr-lib\companding">
+      <UniqueIdentifier>{239fec6d-a4cb-4853-97aa-42b97e2eda62}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
