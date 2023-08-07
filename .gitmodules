@@ -1,6 +1,6 @@
 [submodule "iPlug2"]
 	path = iPlug2
-	url = https://github.com/iPlug2/iPlug2.git
+	url = https://github.com/chrisherb/iPlug2.git
 [submodule "trnr-lib"]
 	path = trnr-lib
 	url = https://github.com/chrisherb/trnr-lib.git
